@@ -21,7 +21,7 @@ export const Providers: FC<IProviders> = ({children}) => {
           <PersistGate loading={null} persistor={persistor}>
             <ThemeProvider
               attribute="class"
-              defaultTheme="light"
+              defaultTheme="dark"
               enableSystem
             >
               {children}
